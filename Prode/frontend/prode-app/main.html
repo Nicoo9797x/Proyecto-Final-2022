@@ -27,6 +27,7 @@
     <body>
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
+                <img src="assets/images/logo-navbar.png" style="width: 40px;" alt="">
                 <a class="navbar-brand" style="color: white">Prode8</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,18 +44,20 @@
                 </div>
             </div>
         </nav>
+        
         <section data-bs-version="5.1" class="image3 cid-t9oYmfD7bT mbr-fullscreen" id="image3-1z">
-            <div class="container-fluid">
-                <table class="prueba1"><!--<tabla padre>-->
+            <div id="container" class="container-fluid">
+               <!-- <table class="prueba1"> <tabla padre>-->
                     <!--<ACA EMPIEZA LA TABLA JORNADA 1>-->    
                     <div class="col" > 
-                        <h2 class="tituloj1" style="color: white"> Jornada 1</h2>
+                        
+                        
                         <table class="table table-dark table-striped"  style=" width: 420px;"  id="jornada1" 
                             summary="Todos los resultados de la jornada">
                             <thead>
                                 <tr>
                                     <th scope="col">Equipo local</th>
-                                    <th scope="col">Resultado</th>
+                                    <th scope="col">Jornada 1 <br>Resultado</th>
                                     <th scope="col">Equipo visitante</th>
                                 </tr>
                             </thead>
@@ -68,10 +71,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td><input type="number" id="goles_equipo_local_P1"
-                                        style="width : 30px"><span class="fecha">21/11</span> <span
-                                        class="hora">7:00</span><input type="number"
-                                        id="goles_equipo_visitante_P1" style="width : 30px">
+                                    <td>
+                                        <span class="fecha"> 21/11  </span> <span class="hora">7:00 </span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P1" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P1" style="width : 30px">
                                     </td>
                                     <td>
                                         <span>Países Bajos</span>
@@ -90,10 +95,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P2"
-                                        style="width : 30px"><span class="fecha">21/11</span> <span
-                                        class="hora">10:00</span><input type="number"
-                                        id="goles_equipo_visitante_P2" style="width : 30px">
+                                    <td class="resultado">
+                                        <span class="fecha">21/11</span> <span class="hora">10:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P2"style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P2" style="width : 30px">
                                     </td>
                                     <td class="visitante">
                                         <span class="equipo_t1042">Irán</span>
@@ -112,10 +119,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P3"
-                                        style="width : 30px"><span class="fecha">21/11</span> <span
-                                        class="hora">13:00</span><input type="number"
-                                        id="goles_equipo_visitante_P3" style="width : 30px">
+                                    <td class="resultado">
+                                        <span class="fecha">21/11</span> <span class="hora">13:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P3" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P3" style="width : 30px">
                                     </td>
                                     <td class="visitante">
                                         <span class="equipo_t830">Ecuador</span>
@@ -134,11 +143,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P4"
-                                        style="width : 30px"><span class="fecha">21/11</span> <span
-                                        class="hora">16:00</span><input type="number"
-                                        id="goles_equipo_visitante_P4" style="width : 30px"
-                                    ></td>
+                                    <td class="resultado">
+                                        <span class="fecha">21/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P4" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P4" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t508">Gales</span>
                                         <figure>
@@ -156,10 +166,12 @@
                                                     </figure>
                                                     
                                                 </td>
-                                                <td class="resultado"><input type="number" id="goles_equipo_local_P5"
-                                                        style="width : 30px"><span class="fecha">22/11</span> <span
-                                                        class="hora">07:00</span><input type="number"
-                                                        id="goles_equipo_visitante_P5" style="width : 30px"></td>
+                                                <td class="resultado">
+                                                    <span class="fecha">22/11</span> <span class="hora">07:00</span>
+                                                    <br><br>
+                                                    <input type="number" id="goles_equipo_local_P5" style="width : 30px">
+                                                    <span> - </span>
+                                                    <input type="number" id="goles_equipo_visitante_P5" style="width : 30px"></td>
                                                 <td class="visitante">
                                                     <span class="equipo_t1264">Arabia Saudita</span>
                                                     <figure>
@@ -177,10 +189,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P6"
-                                            style="width : 30px"><span class="fecha">22/11</span> <span
-                                            class="hora">10:00</span><input type="number"
-                                            id="goles_equipo_visitante_P6" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">22/11</span> <span class="hora">10:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P6" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P6" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1224">Túnez</span>
                                         <figure>
@@ -198,10 +212,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P7"
-                                            style="width : 30px"><span class="fecha">22/11</span> <span
-                                            class="hora">13:00</span><input type="number"
-                                            id="goles_equipo_visitante_P7" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">22/11</span> <span class="hora">13:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P7" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P7" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t511">Polonia</span>
                                         <figure>
@@ -219,10 +235,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P8"
-                                            style="width : 30px"><span class="fecha">22/11</span> <span
-                                            class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P8" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">22/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P8" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P8" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo Australia">Australia</span>
                                         <figure>
@@ -240,10 +258,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P9"
-                                            style="width : 30px"><span class="fecha">23/11</span> <span
-                                            class="hora">7:00</span><input type="number"
-                                            id="goles_equipo_visitante_P9" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">23/11</span> <span class="hora">7:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P9" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P9" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t535">Croacia</span>
                                         <figure>
@@ -261,10 +281,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P10"
-                                            style="width : 30px"><span class="fecha">23/11</span> <span
-                                            class="hora">10:00</span><input type="number"
-                                            id="goles_equipo_visitante_P10" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">23/11</span> <span class="hora">10:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P10" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P10" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1266">Japón</span>
                                         <figure>
@@ -282,10 +304,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P11"
-                                            style="width : 30px"><span class="fecha">23/11</span> <span
-                                            class="hora">13:00</span><input type="number"
-                                            id="goles_equipo_visitante_P11" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">23/11</span> <span class="hora">13:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P11" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P11" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t19243"> Costa Rica</span>
                                         <figure>
@@ -303,10 +327,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P12"
-                                            style="width : 30px"><span class="fecha">23/11</span> <span
-                                            class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P12" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">23/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P12" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P12" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t597">Canadá</span>
                                         <figure>
@@ -324,10 +350,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P13"
-                                            style="width : 30px"><span class="fecha">24/11</span> <span
-                                            class="hora">7:00</span><input type="number"
-                                            id="goles_equipo_visitante_P13" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">24/11</span> <span class="hora">7:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P13" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P13" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t494">Camerún</span>
                                         <figure>
@@ -345,10 +373,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P14"
-                                            style="width : 30px"><span class="fecha">24/11</span> <span
-                                            class="hora">10:00</span><input type="number"
-                                            id="goles_equipo_visitante_P14" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">24/11</span> <span class="hora">10:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P14" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P14" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1041">Corea del Sur</span>
                                         <figure>
@@ -366,10 +396,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P15"
-                                            style="width : 30px"><span class="fecha">24/11</span> <span
-                                            class="hora">13:00</span><input type="number"
-                                            id="goles_equipo_visitante_P15" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">24/11</span> <span class="hora">13:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P15" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P15" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1219">Ghana</span>
                                         <figure>
@@ -387,10 +419,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P16"
-                                            style="width : 30px"><span class="fecha">24/11</span> <span
-                                            class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P16" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">24/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P16" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P16" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t364">Serbia</span>
                                         <figure>
@@ -405,17 +439,21 @@
                     <!--<ACA TERMINA LA TABLA JORNADA 1>--> 
                     <!--<ACA EMPIEZA LA TABLA JORNADA 2>--> 
                     <div class="col" style="margin-right:5px" >
-                        <h2 style="color: white">Jornada 2</h2>
+                        
                         <table class="table table-dark table-striped" style=" width: 420px;"  id="jornada2"
                             summary="Todos los resultados de la jornada">
+                            
                             <thead>
+                                <title>Jornada2</title>
                                 <tr>
+                                    
                                     <th scope="col">Equipo local</th>
-                                    <th scope="col">Resultado</th>
+                                    <th scope="col">Jornada 2 <br>Resultado</th>
                                     <th scope="col">Equipo visitante</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                
                                 <tr>
                                     <td class="local" id="P17">
                                         <figure>
@@ -425,10 +463,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P17"
-                                            style="width : 30px"><span class="fecha">25/11</span> <span
-                                            class="hora">7:00</span><input type="number" id="goles_equipo_visitante_P17"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">25/11</span> <span class="hora">7:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P17" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P17" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1042">Irán</span>
                                         <figure>
@@ -446,10 +486,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P18"
-                                            style="width : 30px"><span class="fecha">25/11</span> <span
-                                            class="hora">10:00</span><input type="number" id="goles_equipo_visitante_P18"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">25/11</span> <span class="hora">10:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P18" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P18" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1226">Senegal</span>
                                         <figure>
@@ -467,10 +509,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P19"
-                                            style="width : 30px"><span class="fecha">25/11</span> <span
-                                            class="hora">13:00</span><input type="number" id="goles_equipo_visitante_P19"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">25/11</span> <span class="hora">13:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P19" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P19" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t830">Ecuador</span>
                                         <figure>
@@ -488,10 +532,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P20"
-                                            style="width : 30px"><span class="fecha">25/11</span> <span
-                                            class="hora">16:00</span><input type="number" id="goles_equipo_visitante_P20"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">25/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P20" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P20" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t596">Estados Unidos</span>
                                         <figure>
@@ -509,10 +555,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P21"
-                                            style="width : 30px"><span class="fecha">26/11</span> <span
-                                            class="hora">7:00</span><input type="number" id="goles_equipo_visitante_P21"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">26/11</span> <span class="hora">7:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P21" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P21" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t19242">Australia</span>
                                         <figure>
@@ -530,10 +578,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P22"
-                                            style="width : 30px"><span class="fecha">26/11</span> <span
-                                            class="hora">10:00</span><input type="number" id="goles_equipo_visitante_P22"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">26/11</span> <span class="hora">10:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P22" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P22" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1264">Arabia Saudita</span>
                                         <figure>
@@ -551,10 +601,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P23"
-                                            style="width : 30px"><span class="fecha">26/11</span> <span
-                                            class="hora">13:00</span><input type="number" id="goles_equipo_visitante_P23"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">26/11</span> <span class="hora">13:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P23" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P23" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t369">Dinamarca</span>
                                         <figure>
@@ -572,10 +624,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P24"
-                                            style="width : 30px"><span class="fecha">26/11</span> <span
-                                            class="hora">16:00</span><input type="number" id="goles_equipo_visitante_P24"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">26/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P24" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P24" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t659">México</span>
                                         <figure>
@@ -593,10 +647,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P25"
-                                            style="width : 30px"><span class="fecha">27/11</span> <span
-                                            class="hora">7:00</span><input type="number" id="goles_equipo_visitante_P25"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">27/11</span> <span class="hora">7:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P25" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P25" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t19243">Costa Rica</span>
                                         <figure>
@@ -614,10 +670,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P26"
-                                            style="width : 30px"><span class="fecha">27/11</span> <span
-                                            class="hora">10:00</span><input type="number" id="goles_equipo_visitante_P26"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">27/11</span> <span class="hora">10:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P26" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P26" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1057">Marruecos</span>
                                         <figure>
@@ -635,10 +693,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P27"
-                                            style="width : 30px"><span class="fecha">27/11</span> <span
-                                            class="hora">13:00</span><input type="number" id="goles_equipo_visitante_P27"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">27/11</span> <span class="hora">13:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P27" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P27" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t597">Canadá</span>
                                         <figure>
@@ -656,10 +716,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P28"
-                                            style="width : 30px"><span class="fecha">27/11</span> <span
-                                            class="hora">16:00</span><input type="number" id="goles_equipo_visitante_P28"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">27/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P28" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P28" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t357">Alemania</span>
                                         <figure>
@@ -677,10 +739,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P29"
-                                            style="width : 30px"><span class="fecha">28/11</span> <span
-                                            class="hora">7:00</span><input type="number" id="goles_equipo_visitante_P29"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">28/11</span> <span class="hora">7:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P29" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P29" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t364">Serbia</span>
                                         <figure>
@@ -698,10 +762,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P30"
-                                            style="width : 30px"><span class="fecha">28/11</span> <span
-                                            class="hora">10:00</span><input type="number" id="goles_equipo_visitante_P30"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">28/11</span> <span class="hora">10:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P30" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P30" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1219">Ghana</span>
                                         <figure>
@@ -719,10 +785,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P31"
-                                            style="width : 30px"><span class="fecha">28/11</span> <span
-                                            class="hora">13:00</span><input type="number" id="goles_equipo_visitante_P31"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">28/11</span> <span class="hora">13:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P31" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P31" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t497">Suiza</span>
                                         <figure>
@@ -740,10 +808,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P32"
-                                            style="width : 30px"><span class="fecha">28/11</span> <span
-                                            class="hora">16:00</span><input type="number" id="goles_equipo_visitante_P32"
-                                            style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">28/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P32" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P32" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t837">Uruguay</span>
                                         <figure>
@@ -758,13 +828,13 @@
                     <!--<ACA TERMINA LA TABLA JORNADA 2>--> 
                     <!--<ACA EMPIEZA LA TABLA JORNADA 3>-->    
                     <div class="col"  style="margin-right:410px" >
-                        <h2 style="color: white">Jornada 3</h2>
+                        
                         <table class="table table-dark table-striped" style=" width: 420px;" id="jornada3"
                             summary="Todos los resultados de la jornada">
                             <thead>
                                 <tr>
                                     <th scope="col">Equipo local</th>
-                                    <th scope="col">Resultado</th>
+                                    <th scope="col">Jornada 3 <br>Resultado</th>
                                     <th scope="col">Equipo visitante</th>
                                 </tr>
                             </thead>
@@ -778,9 +848,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" required id="goles_equipo_local_P33" style="width : 30px"><span
-                                            class="fecha">29/11</span> <span class="hora">10:00</span><input type="number"
-                                            id="goles_equipo_visitante_P33" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">29/11</span> <span class="hora">10:00</span>
+                                        <br><br>
+                                        <input type="number" required id="goles_equipo_local_P33" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P33" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1226">Senegal</span>
                                         <figure>
@@ -798,9 +871,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P34" style="width : 30px"><span
-                                            class="fecha">29/11</span> <span class="hora">10:00</span><input type="number"
-                                            id="goles_equipo_visitante_P34" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">29/11</span> <span class="hora">10:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P34" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P34" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1873">Qatar</span>
                                         <figure>
@@ -818,9 +894,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P35" style="width : 30px"><span
-                                            class="fecha">29/11</span> <span class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P35" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">29/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P35" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P35" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t596">Estados Unidos</span>
                                         <figure>
@@ -838,9 +917,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P36" style="width : 30px"><span
-                                            class="fecha">29/11</span> <span class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P36" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span  class="fecha">29/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P36" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P36" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t114">Inglaterra</span>
                                         <figure>
@@ -858,9 +940,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P37" style="width : 30px"><span
-                                            class="fecha">30/11</span> <span class="hora">12:00</span><input type="number"
-                                            id="goles_equipo_visitante_P37" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">30/11</span> <span class="hora">12:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P37" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P37" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t368">Francia</span>
                                         <figure>
@@ -879,9 +964,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P38" style="width : 30px"><span
-                                            class="fecha">30/11</span> <span class="hora">12:00</span><input type="number"
-                                            id="goles_equipo_visitante_P38" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">30/11</span> <span class="hora">12:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P38" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P38" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t369">Dinamarca</span>
                                         <figure>
@@ -899,9 +987,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P39" style="width : 30px"><span
-                                            class="fecha">30/11</span> <span class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P39" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">30/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P39" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P39" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t632">Argentina</span>
                                         <figure>
@@ -919,9 +1010,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P40" style="width : 30px"><span
-                                            class="fecha">30/11</span> <span class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P40" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">30/11</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P40" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P40" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t659">México</span>
                                         <figure>
@@ -939,9 +1033,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P41" style="width : 30px"><span
-                                            class="fecha">01/12</span> <span class="hora">12:00</span><input type="number"
-                                            id="goles_equipo_visitante_P41" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">01/12</span> <span class="hora">12:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P41" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P41" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t1057">Marruecos</span>
                                         <figure>
@@ -959,9 +1056,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P42" style="width : 30px"><span
-                                            class="fecha">01/12</span> <span class="hora">12:00</span><input type="number"
-                                            id="goles_equipo_visitante_P42" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">01/12</span> <span class="hora">12:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P42" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P42" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t360">Bélgica</span>
                                         <figure>
@@ -979,9 +1079,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P43" style="width : 30px"><span
-                                            class="fecha">01/12</span> <span class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P43" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">01/12</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P43" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P43" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t118">España</span>
                                         <figure>
@@ -999,9 +1102,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P44" style="width : 30px"><span
-                                            class="fecha">01/12</span> <span class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P44" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">01/12</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P44" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P44" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t357">Alemania</span>
                                         <figure>
@@ -1019,9 +1125,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P45" style="width : 30px"><span
-                                            class="fecha">02/12</span> <span class="hora">12:00</span><input type="number"
-                                            id="goles_equipo_visitante_P45" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">02/12</span> <span class="hora">12:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P45" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P45" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t837">Uruguay</span>
                                         <figure>
@@ -1039,9 +1148,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P46" style="width : 30px"><span
-                                            class="fecha">02/12</span> <span class="hora">12:00</span><input type="number"
-                                            id="goles_equipo_visitante_P46" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">02/12</span> <span class="hora">12:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P46" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P46" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t359">Portugal</span>
                                         <figure>
@@ -1059,9 +1171,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P47" style="width : 30px"><span
-                                            class="fecha">02/12</span> <span class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P47" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">02/12</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P47" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P47" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t614">Brasil</span>
                                         <figure>
@@ -1079,9 +1194,12 @@
                                         </figure>
                                         
                                     </td>
-                                    <td class="resultado"><input type="number" id="goles_equipo_local_P48" style="width : 30px"><span
-                                            class="fecha">02/12</span> <span class="hora">16:00</span><input type="number"
-                                            id="goles_equipo_visitante_P48" style="width : 30px"></td>
+                                    <td class="resultado">
+                                        <span class="fecha">02/12</span> <span class="hora">16:00</span>
+                                        <br><br>
+                                        <input type="number" id="goles_equipo_local_P48" style="width : 30px">
+                                        <span> - </span>
+                                        <input type="number" id="goles_equipo_visitante_P48" style="width : 30px"></td>
                                     <td class="visitante">
                                         <span class="equipo_t497">Suiza</span>
                                         <figure>
@@ -1097,12 +1215,16 @@
                 </table><!--<ACA TERMINA LA TABLA PADRE DE LAS JORNADAS 1 , 2 Y 3 >-->
             </div>
         </section>
-        <footer> 
-            <div class="col-auto mbr-section-btn align-center" style="background-color: #601e1e">
-                <button class="btn btn-primary display-4" onclick="enviar_resultados();" value="">Enviar Prode</button>
-                <a href="#top" class="btn btn-primary display-4">Ir arriba</a>
-            </div>
-        </footer>
+        
+           
+        <div id="boton-prode" class="col-auto mbr-section-btn align-center" style="background-color: #601e1e">
+            <button class="btn btn-primary display-4" onclick="enviar_resultados();" value="">Enviar Prode</button>
+            <a href="#top" class="btn btn-primary display-4">Ir arriba</a>
+        </div>
+        
+        
+
+
         <script src="routes/routes.js"></script>
 <script src="controllers/partidos.controller.js"></script>
 

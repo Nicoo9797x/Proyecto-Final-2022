@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v5.6.8, https://mobirise.com -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v5.6.8, mobirise.com">
@@ -25,17 +25,14 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
-  
-  
 </head>
 <body>
+  <div id="particles-js"></div>
   
-  <section data-bs-version="5.1" class="form4 cid-t9pbvqIoGG mbr-fullscreen" id="form4-29">
 
     
 
-    
+  
 
     <div class="container-fluid">
         <div class="row content-wrapper justify-content-center">
@@ -47,9 +44,9 @@
                             Oops...! some problem!
                         </div>
                     </div>
-                    <div class="dragArea row">
+                    <div id="login-input" class="dragArea row">
                         <div class="col-lg-12 col-md-12 col-sm-12">
-                            <h1 class="mbr-section-title mb-4 display-2"><strong>Ingresa!</strong></h1>
+                            <h1 class="mbr-section-title mb-4 display-2" style="color: white;"><strong>¡Ingresá!</strong></h1>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             
@@ -61,11 +58,13 @@
                             <input type="password" name="phone" id="clave" placeholder="Contraseña" data-form-field="phone" class="form-control" onkeypress="enterKeyPressed(event)" value="" >
                         </div>
                         <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="dni">
-                            <input type="text" name="dni" id="dni" placeholder="Dni" data-form-field="dni"  class="form-control" onkeypress="enterKeyPressed(event)" value="" >
+                            <input type="text" name="dni" id="dni" placeholder="DNI" data-form-field="dni"  class="form-control" onkeypress="enterKeyPressed(event)" value="" >
                         </div>
+                        
                         <div class="col-12 col-md-auto mbr-section-btn"><button onclick="login();"  class="btn btn-secondary display-4">Entrar</button></div>
+                        <a href="registro.html"> <button id="login-image" class="btn btn-primary display-4" value="">Registrate acá</button></a>
                     </div>
-                    <a href="registro.html"> <button class="btn btn-primary display-4" value="">Registrese Aqui!</button></a>
+                    
                     
                     
                 
@@ -73,12 +72,12 @@
             </div>
             <div class="col-lg-7 offset-lg-1 col-12">
                 <div class="image-wrapper">
-                    <img class="w-100" src="assets/images/fondo-654x367.png" alt="Mobirise Website Builder">
+                    <img class="w-100" id="login-image" src="assets/images/fondo-login.png" alt="Mobirise Website Builder">
                 </div>
             </div>
         </div>
     </div>
-</section>
+
 
 
 
@@ -113,5 +112,7 @@
     return false;
 }
     </script>
+    <script type="text/javascript" src="framework/particles/particles.js"></script>
+    <script type="text/javascript" src="framework/particles/demo/js/app.js"></script>
 </body>
 </html>
