@@ -1211,50 +1211,39 @@
                             </tbody>
                         </table>
                     </div>
-                    <!--<ACA TERMINA LA TABLA JORNADA 3>-->
-                </table><!--<ACA TERMINA LA TABLA PADRE DE LAS JORNADAS 1 , 2 Y 3 >-->
+                </table>
             </div>
         </section>
-        
-           
         <div id="boton-prode" class="col-auto mbr-section-btn align-center" style="background-color: #601e1e">
             <button class="btn btn-primary display-4" onclick="enviar_resultados();" value="">Enviar Prode</button>
             <a href="#top" class="btn btn-primary display-4">Ir arriba</a>
         </div>
-        
-        
-
-
         <script src="routes/routes.js"></script>
-<script src="controllers/partidos.controller.js"></script>
-
-<script src="framework/Sweetalert/sweetalert.min.js"></script>
-<script>
-    function enterKeyPressed(event) {
-       if (event.keyCode == 13) {
-          
-          login();
-          return true;
-       } else {
-          return false;
-          
-       }
-    }
- </script>
-  <script type="text/javascript">
-    document.oncontextmenu = rightClick;
-
-    function rightClick(clickEvent) {
-        clickEvent.preventDefault();
-        
-    }
-    </script>
-      <script>
-        document.onkeydown = function (e) { 
-    if (window.event.keyCode == 123 ||  e.button==2)    
-    return false;
-}
-    </script>
+        <script src="controllers/partidos.controller.js"></script>
+        <script src="framework/Sweetalert/sweetalert.min.js"></script>
+        <script>
+            function enterKeyPressed(event) {
+            if (event.keyCode == 13) {
+                
+                login();
+                return true;
+            } else {
+                return false;
+            }
+            }
+        </script>
+        <script type="text/javascript">
+            document.oncontextmenu = rightClick;
+            function rightClick(clickEvent) {
+            clickEvent.preventDefault();
+            }
+        </script>
+        <script>
+            document.onkeydown = function (e) { 
+            if (window.event.keyCode == 123 ||  e.button==2)    
+            return false;
+            }
+        </script>
 
     </body>
 </html>  
