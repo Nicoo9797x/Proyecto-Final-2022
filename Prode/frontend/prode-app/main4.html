@@ -6,9 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <style>table { border-collapse: collapse;}</style>
+         <!--<style>table { border-collapse: collapse;}</style>
         <style>table {margin: 40px;}</style>
-        <style>table ,th , td , tr {text-align:  center;}</style>
+        <style>table ,th , td , tr {text-align:  center; border: 1px solid black;}</style>-->
+        
+
+        
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-dark">
@@ -29,31 +32,33 @@
                 </div>
             </div>
         </nav>
-        <table class="table table-dark table-striped" style="width: 450px;"> <!-- TABLA JORNADA 1 -->
+        <div class="container">
+        <div class="col" ></div>
+        <div class="col-4"  >
+        <table class="table rounded table-dark table-striped table-bordered" > <!-- TABLA JORNADA 1 -->
             <thead>
                 <tr>
-                <th scope="col">Local</th>
-                <th scope="col">Jornada 1 <br>Resultado</th>
-                <th scope="col">Visitante</th>
+                    <th scope="col">Local</th>
+                    <th scope="col">Jornada 1 <br>Resultado</th>
+                    <th scope="col">Visitante</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td id="P1"><span>Senegal</span><br>
-                        <img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/1226.png" alt="Senegal" style="width : 50px">
-                    </td>
-                    <td>
-                        <span> 21/11</span>-<span >7:00 </span>
-                        <br><br>
-                        <input type="number" id="goles_equipo_local_P1" style="width : 45px">
-                        <span> - </span>
-                        <input type="number" id="goles_equipo_visitante_P1" style="width : 45px">
-                    </td>
-                    <td>
-                        <span>Países Bajos</span><br>
-                        <img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/366.png" alt="Países Bajos" style="width :  50px">
-                    </td>
+                <tr> 
+                    <td> Inglaterra</td>
+                    <td><p class="text-truncate">21/11 10:00</p></td>
+                    <td>Iran</td>
                 </tr>
+                <tr> 
+                    <td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/114.png"></td>
+                    <td>
+                       <td><input type="number" id="goles_equipo_local_P2"></td>
+                       <td><input type="number" id="goles_equipo_visitante_P2"></td> 
+                    </td>
+                    <td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/1042.png"></td>
+                </tr>
+                    
+                
                 <tr>
                     <td  id="P2">
                         <span>Inglaterra</span><br>
@@ -354,5 +359,8 @@
 
             </tbody>    
         </table>
+        </div>
+        <div class="col"></div>
+    </div>
     </body>
 </html>
