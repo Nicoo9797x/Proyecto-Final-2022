@@ -278,7 +278,7 @@ function alerta_error(mensaje){
         icon:'error',
         button:'continuar'
      }).then(function(){
-        window.location = 'resultados.html';
+        window.location = 'pago.html';
      });
     }
 
@@ -300,7 +300,7 @@ function alerta_error(mensaje){
                 icon:'success',
                 button:'continuar'
              }).then(function(){
-                window.location = 'resultados.html';
+                window.location = 'pago.html';
              });
         
             
