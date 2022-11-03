@@ -64,7 +64,7 @@ function alerta_ok(user){
         icon:'success',
         button:'continuar'
      }).then(function(){
-        window.location = 'fixture.html';
+        window.location = 'main.html';
      });
 
     
