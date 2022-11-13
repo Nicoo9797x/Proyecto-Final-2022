@@ -1,8 +1,12 @@
+
 /* Para el hover de navbar */
-a> :hover,a:hover{
+
+
+.nav-link> :hover,a:hover{
   background-color: #b3b3b3;
   color: #FFC0CB;
 }
+
 #active{
   background-color: rgb(158, 158, 158);
 }

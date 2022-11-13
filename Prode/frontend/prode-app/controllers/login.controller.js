@@ -64,7 +64,7 @@ function alerta_ok(user){
         icon:'success',
         button:'continuar'
      }).then(function(){
-        window.location = 'main.html';
+        window.location = 'estadisticas.html';
      });
 
     
