@@ -9,7 +9,6 @@ $usuario = $data['usuario'];
 $clave = $data['clave'];
 $dni = $data['dni'];
 
-$clave_hashed=hash("sha256",$clave);
 
 $sql = "select dni from login where dni='$dni';";
 
@@ -25,7 +24,7 @@ while ($row = $results->fetchArray(SQLITE3_ASSOC))
 
 if (empty($jsonArray))
 {
-    $sql = "insert into login ('login', 'clave', 'rol', 'dni') values ('$usuario', '$clave_hashed', '0','$dni');";
+    $sql = "insert into login ('login', 'clave', 'rol', 'dni') values ('$usuario', '$clave', '0','$dni');";
   
 $db->query($sql);
 
