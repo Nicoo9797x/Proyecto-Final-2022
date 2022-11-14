@@ -6,21 +6,26 @@ $data = json_decode($input, true);
 $message = array();
 
 
+
 $usuario = $data['usuario'];
 $clave = $data['clave'];
 $dni = $data['dni'];
+
+
 
 //$clave_64 = base64_encode($clave);
 
 $clave_hashed = hash("sha256",$clave);
 
-$sql = "select id,login,rol from login where login='$usuario' and clave='$clave_hashed' and dni='$dni';";
+
+$sql = "select usuario,rol from login where usuario='$usuario' and clave='$clave_hashed' and dni='$dni'";
 
 $results = $db->query($sql);
+
+
+//$cols = $results->numColumns();
  
-$cols = $results->numColumns();
- 
-    while ($row = $results->fetchArray(SQLITE3_ASSOC))
+    while ($row = $results->fetch_row())
     {
         $jsonArray[] = $row;
     }
