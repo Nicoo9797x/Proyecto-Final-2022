@@ -10,9 +10,11 @@ $usuario = $data['usuario'];
 $clave = $data['clave'];
 $dni = $data['dni'];
 
-$clave_64 = base64_encode($clave);
+//$clave_64 = base64_encode($clave);
 
-$sql = "select id,login,rol from login where login='$usuario' and clave='$clave' and dni='$dni';";
+$clave_hashed=hash("sha256",$clave);
+
+$sql = "select id,login,rol from login where login='$usuario' and clave='$clave_hashed' and dni='$dni';";
 
 $results = $db->query($sql);
  
