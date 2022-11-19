@@ -1,4 +1,4 @@
-const host = 'http://localhost/Prode/backend/prode-api/';
+const host = 'http://prode8.com.ar/Prode/backend/prode-api/';
 
 //const host = 'https://oviedoportfolio.000webhostapp.com/backend/prode-api/';
 
@@ -30,6 +30,3 @@ const resultados_services = host + "resultados.php";
 function getResultados_services(){
     return resultados_services;
 }
-
-
-
